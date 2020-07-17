@@ -13,7 +13,7 @@ namespace Bakery.Models
 
     public bool GetPastry()
     {
-      return false;
+      return true;
     }
   }
 }
