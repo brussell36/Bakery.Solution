@@ -9,9 +9,9 @@ namespace Bakery.Models
       Order = order;
     }
 
-    public int GetBread(int order)
+    public bool GetBread(int order)
     {
-      return order;
+      return true;
     }
   }
 }

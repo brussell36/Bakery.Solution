@@ -15,10 +15,10 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void GetBread_HoldsIntFromUser_Int()
+    public void GetBread_HoldsIntFromUser_True()
     {
       Bread newOrder = new Bread(3);
-      Assert.AreEqual(false, newOrder);
+      Assert.AreEqual(true, newOrder.GetBread(3));
     }
   }
 }
