@@ -15,15 +15,16 @@ namespace Pierres
       {
         Console.WriteLine("How many loaves would you like? Enter a number: ");
         Bread newOrder = new Bread(int.Parse(Console.ReadLine()));
-        breadOrder = newOrder.BreadValue();
+        int breadOrder = newOrder.BreadValue();
+        Console.WriteLine("You owe $" + breadOrder);
       }
       else if (userOrder == "Pastry")
       {
         Console.WriteLine("How many pastries would you like? Enter a number: ");
         Pastry newOrder = new Pastry(int.Parse(Console.ReadLine()));
-        pastryOrder = newOrder.PastryValue();
+        int pastryOrder = newOrder.PastryValue();
+        Console.WriteLine("You owe $" + pastryOrder);
       }
-      Console.WriteLine("You owe $" + breadOrder + pastryOrder);
     }
   }
 }
