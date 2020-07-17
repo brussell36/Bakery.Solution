@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Bakery.Models
 {
   public class Bread
@@ -12,6 +14,15 @@ namespace Bakery.Models
     public bool GetBread(int order)
     {
       return true;
+    }
+
+    public Dictionary<string, int> BreadValue()
+    {
+      Dictionary<string, int> breadOrder = new Dictionary<string, int> 
+      {
+        {"Bread", 5}
+      };
+      return breadOrder;
     }
   }
 }
