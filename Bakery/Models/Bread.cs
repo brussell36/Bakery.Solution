@@ -34,8 +34,8 @@ namespace Bakery.Models
 
     public int BreadValue()
     {
-      int newOrder = Order * 5;
-      return newOrder;
+        int newOrder = Order * 5;
+        return newOrder;
     }
   }
 }
