@@ -10,15 +10,15 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetBread_BreadIsObject_True()
     {
-    Bread newOrder = new Bread(2);
-    Assert.AreEqual(typeof(Bread), newOrder.GetType());
+      Bread newOrder = new Bread(2);
+      Assert.AreEqual(typeof(Bread), newOrder.GetType());
     }
 
     [TestMethod]
     public void GetBread_HoldsIntFromUser_True()
     {
       Bread newOrder = new Bread(3);
-      Assert.AreEqual(true, newOrder.GetBread(3));
+      Assert.AreEqual(true, newOrder.GetBread());
     }
 
     [TestMethod]
@@ -31,5 +31,13 @@ namespace Bakery.Tests
       };
       CollectionAssert.AreEqual(value, newOrder.BreadValue());
     }
+
+    // [TestMethod]
+    // public void BreadCost_ReturnCostOfBread_Int()
+    // {
+    //   Bread newOrder = new Bread(3);
+    //   Dictionary<string, int> value = newOrder.BreadValue(3);
+    //   Assert.AreEqual(15, newOrder.BreadCost(value));
+    // }
   }
 }

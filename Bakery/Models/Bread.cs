@@ -5,13 +5,13 @@ namespace Bakery.Models
   public class Bread
   {
     public int Order { get; set; }
-
+    
     public Bread(int order)
     {
       Order = order;
     }
 
-    public bool GetBread(int order)
+    public bool GetBread()
     {
       return true;
     }
@@ -24,5 +24,10 @@ namespace Bakery.Models
       };
       return breadOrder;
     }
+
+    // public int BreadValue(Dictionary<string, int> breadOrder)
+    // {
+    //   return 15;
+    // }
   }
 }
