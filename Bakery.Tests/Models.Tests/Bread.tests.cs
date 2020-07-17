@@ -22,14 +22,14 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void BreadValue_AssignCostToBread_Int()
+    public void BreadCost_AssignCostToBread_Int()
     {
       Bread newOrder = new Bread(3);
       Dictionary<string, int> value = new Dictionary<string, int> 
       {
         {"Bread", 5}
       };
-      CollectionAssert.AreEqual(value, newOrder.BreadValue());
+      CollectionAssert.AreEqual(value, newOrder.BreadCost());
     }
 
     // [TestMethod]

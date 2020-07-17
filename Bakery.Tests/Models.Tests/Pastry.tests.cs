@@ -20,5 +20,16 @@ namespace Bakery.Tests
       Pastry newOrder = new Pastry(3);
       Assert.AreEqual(true, newOrder.GetPastry());
     }
+
+    [TestMethod]
+    public void PastryCost_AssignCostToPastry_Int()
+    {
+      Pastry newOrder = new Pastry(3);
+      Dictionary<string, int> value = new Dictionary<string, int> 
+      {
+        {"Pastry", 2}
+      };
+      CollectionAssert.AreEqual(value, newOrder.PastryCost());
+    }
   }
 }

@@ -13,10 +13,17 @@ namespace Bakery.Models
 
     public bool GetBread()
     {
-      return true;
+      if (Order.GetType() == typeof(int))
+      {
+        return true;
+      }
+      else
+      {
+          return false;
+      }
     }
 
-    public Dictionary<string, int> BreadValue()
+    public Dictionary<string, int> BreadCost()
     {
       Dictionary<string, int> breadOrder = new Dictionary<string, int> 
       {

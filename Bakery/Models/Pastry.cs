@@ -22,5 +22,14 @@ namespace Bakery.Models
         return false;
       }
     }
+
+    public Dictionary<string, int> PastryCost()
+    {
+      Dictionary<string, int> pastryOrder = new Dictionary<string, int> 
+      {
+        {"Pastry", 5}
+      };
+      return pastryOrder;
+    }
   }
 }
