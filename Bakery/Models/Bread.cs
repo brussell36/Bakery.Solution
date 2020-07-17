@@ -32,9 +32,9 @@ namespace Bakery.Models
       return breadOrder;
     }
 
-    // public int BreadValue(Dictionary<string, int> breadOrder)
-    // {
-    //   return 15;
-    // }
+    public int BreadValue(Dictionary<string, int> breadOrder)
+    {
+      return 5;
+    }
   }
 }
