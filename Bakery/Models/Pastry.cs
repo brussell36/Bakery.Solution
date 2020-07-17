@@ -27,7 +27,7 @@ namespace Bakery.Models
     {
       Dictionary<string, int> pastryOrder = new Dictionary<string, int> 
       {
-        {"Pastry", 5}
+        {"Pastry", 2}
       };
       return pastryOrder;
     }
