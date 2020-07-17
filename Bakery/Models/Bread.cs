@@ -34,7 +34,8 @@ namespace Bakery.Models
 
     public int BreadValue(Dictionary<string, int> breadOrder)
     {
-      return 5;
+      int newOrder = Order * 5;
+      return newOrder;
     }
   }
 }
