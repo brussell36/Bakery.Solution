@@ -9,22 +9,15 @@ namespace Pierres
     public static void Main()
     {
       Console.WriteLine("Welcome to Pierre's Bakery! We have Bread and Pastries.");
-      Console.WriteLine("Please enter (Bread/Pastry) to specify how many you would like of each.");
-      string userOrder = Console.ReadLine();
-      if (userOrder == "Bread")
-      {
-        Console.WriteLine("How many loaves would you like? Enter a number: ");
-        Bread newOrder = new Bread(int.Parse(Console.ReadLine()));
-        int breadOrder = newOrder.BreadValue();
-        Console.WriteLine("You owe $" + breadOrder);
-      }
-      else if (userOrder == "Pastry")
-      {
-        Console.WriteLine("How many pastries would you like? Enter a number: ");
-        Pastry newOrder = new Pastry(int.Parse(Console.ReadLine()));
-        int pastryOrder = newOrder.PastryValue();
-        Console.WriteLine("You owe $" + pastryOrder);
-      }
+      Console.WriteLine("Bread is $5 per loaf and Pastries are $2 each.");
+      Console.WriteLine("Please enter how many loaves and pastries you would like to purchase.");    
+      Console.WriteLine("How many loaves would you like? Enter a number: ");
+      Bread newOrder = new Bread(int.Parse(Console.ReadLine()));
+      int breadOrder = newOrder.BreadValue();
+      Console.WriteLine("How many pastries would you like? Enter a number: ");
+      Pastry newOrder2 = new Pastry(int.Parse(Console.ReadLine()));
+      int pastryOrder = newOrder2.PastryValue();
+      Console.WriteLine("You owe $" + (breadOrder + pastryOrder) + ", thank you for choosing our bakery.");
     }
   }
 }
