@@ -12,8 +12,15 @@ namespace Bakery.Models
     }
 
     public bool GetPastry()
-    {
-      return true;
+    {   
+      if (Order.GetType() == typeof(int))
+      {
+        return true;
+      }
+      else
+      {
+        return false;
+      }
     }
   }
 }
