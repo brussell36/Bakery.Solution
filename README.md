@@ -1,12 +1,12 @@
 # Pierre's Bakery
 
-#### C# practice for Epicodus, 07.16.2020
+#### C# practice for Epicodus, 07.17.2020
 
 ## By Benjamin Russell
 
 ## Description
 
-Create an app that will take a word and return the Scrabble score for that word.
+This application will ask a user how much bread and pastry they would like to purchase. The total cost will be returned to the user. Pierre's will offer the following deals: If user buys 2 loaves of bread they will get a third for free and the deal for pastry will be buy 1 for $2 or 3 for $5.
 
 ## Setup/Installation Requirements
 
@@ -26,10 +26,10 @@ Create an app that will take a word and return the Scrabble score for that word.
 
 | Behavior | Input | Output |  Completed(Y/N?)  |
 | -------- | ----- | ------ | -------- |
-| 1. Create an object that will associate letters with number values |  | A = 1 | Y |
-| 2. Will determine how many letters are in a user input word | Java | 4 points | Y |
-| 3. Will loop through every letter of word and add values to running total | Java | 14 points | Y |
-| 4. Return Scrabble score for word to user | Java | Your word is worth 14 points in Scrabble! | Y |
+| 1. Create bread and pastry objects that will hold int values | 2 bread and 3 pastry | Your order will be $15 and you get a free loaf of bread! | N |
+| 2. Will determine how many loaves of bread and how many pastries the user would like | 2 bread and 3 pastry | Your order will be $15 and you get a free loaf of bread! | N |
+| 3. Program will compare the amount the user would like with cost of items | 2 bread and 3 pastry | Your order will be $15 and you get a free loaf of bread! | N |
+| 4. Will account for the deals Pierre has determined for his shop | 2 bread and 3 pastry | Your order will be $15 and you get a free loaf of bread! | N |
 
 
 ## Known Bugs
