@@ -31,5 +31,11 @@ namespace Bakery.Models
       };
       return pastryOrder;
     }
+
+    public int PastryValue()
+    {
+      int newOrder = Order * 3;
+      return newOrder;
+    }
   }
 }

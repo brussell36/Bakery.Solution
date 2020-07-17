@@ -33,14 +33,10 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-    public void BreadCost_ReturnCostOfBread_Int()
+    public void BreadValue_ReturnCostOfBread_Int()
     {
       Bread newOrder = new Bread(3);
-      Dictionary<string, int> value = new Dictionary<string, int>
-      {
-        {"Bread", 5}
-      };
-      Assert.AreEqual(15, newOrder.BreadValue(value));
+      Assert.AreEqual(15, newOrder.BreadValue());
     }
   }
 }
