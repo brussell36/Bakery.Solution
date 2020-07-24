@@ -35,6 +35,13 @@ namespace Bakery.Models
     public int PastryValue()
     {
       int newOrder = Order * 2;
+      for (int i = 0; i < Order; i++)
+      {
+        if (i % 2 == 0)
+        {
+          newOrder -= 1;
+        }
+      }
       return newOrder;
     }
   }

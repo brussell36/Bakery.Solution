@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Bakery.Models;
 
-namespace Pierres
+namespace Program
 {
   public class Bakery
   {
