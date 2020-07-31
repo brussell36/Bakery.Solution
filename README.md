@@ -24,12 +24,12 @@ This application will ask a user how much bread and pastry they would like to pu
 
 ## Specifications
 
-| Behavior | Input | Output |  Completed(Y/N?)  |
-| -------- | ----- | ------ | -------- |
-| 1. Create bread and pastry objects that will hold int values | 2 bread and 3 pastry | Your order will be $15 and you get a free loaf of bread! | N |
-| 2. Will determine how many loaves of bread and how many pastries the user would like | 2 bread and 3 pastry | Your order will be $15 and you get a free loaf of bread! | N |
-| 3. Program will compare the amount the user would like with cost of items | 2 bread and 3 pastry | Your order will be $15 and you get a free loaf of bread! | N |
-| 4. Will account for the deals Pierre has determined for his shop | 2 bread and 3 pastry | Your order will be $15 and you get a free loaf of bread! | N |
+| Behavior | Input | Output |
+| -------- | ----- | ------ |
+| 1. Create bread and pastry objects that will hold int values | 2 bread and 3 pastry | Your order will be $15 |
+| 2. Will determine how many loaves of bread and how many pastries the user would like | 2 bread and 3 pastry | Your order will be $15 |
+| 3. Program will compare the amount the user would like with cost of items | 2 bread and 3 pastry | Your order will be $15 |
+| 4. Will account for the deals Pierre has determined for his shop | 2 bread and 3 pastry | Your order will be $15 |
 
 
 ## Known Bugs
