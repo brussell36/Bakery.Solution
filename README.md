@@ -10,11 +10,13 @@ This application will ask a user how much bread and pastry they would like to pu
 
 ## Setup/Installation Requirements
 
-1. Clone this repository from GitHub https://github.com/brussell36/Scrabble.Solution
+1. Clone this repository from GitHub https://github.com/brussell36/Bakery.Solution
 2. Open the downloaded directory in a text editor of your choice. (VSCode, Atom, etc.)
 3. Install [.Net Core](https://dotnet.microsoft.com/download/dotnet-core/2.2) 
 4. To install the REPL dotnet script, run dotnet tool install -g dotnet-script in your terminal.
-5. Run the program with the command dotnet build.
+5. Run the command dotnet build.
+6. Navigate to Bakery folder.
+7. Run the command dotnet run.
 
 #### Additional Setup/Installation Notes:
 
